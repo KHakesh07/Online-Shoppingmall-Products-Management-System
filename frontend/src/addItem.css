@@ -1,0 +1,40 @@
+
+  body{
+    background-image: url(background.jpg);
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .item-home{
+    top: 30px;
+    margin-left: 1350px;
+  }
+  
+  .add-item-form {
+    display: flex;
+    flex-direction: column; 
+    width: 300px; 
+    margin-left: 600px;
+    margin-top: 90px;
+  }
+  
+  .add-item-form input {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    font-size: 1rem; 
+    border: 1px solid #e3e3e3;
+    border-radius: 5px; 
+  }
+  
+  .add-item-form button {
+    padding: 10px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-item-form .item-home:hover {
+    background-color: #ff6f00; 
+  }
+ 

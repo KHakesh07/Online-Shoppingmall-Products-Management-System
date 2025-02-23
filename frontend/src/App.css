@@ -1,0 +1,79 @@
+/* styles.css */
+body {
+  background-image: url(background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: rgb(234, 232, 232); /* Ensures text is readable */
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+}
+
+table {
+  width: 75%;
+  border-collapse:separate;
+  border-radius: 5px;
+  margin: 40px 130px;
+}
+
+table th, table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ffffff;
+}
+
+table th {
+  background-color: #bd7013;
+  color: rgb(255, 255, 255);
+}
+
+table td {
+  color: rgb(255, 255, 255);
+  
+  
+}
+
+/* Add spacing between table columns */
+table th, table td {
+  border-spacing: 15px;
+}
+
+/* Add spacing for buttons and links */
+button, a {
+  margin: 5px;
+  padding: 3px 12px;
+  background-color: #e15011;
+  color: rgb(255, 255, 255);
+  border: 2px;
+  border-radius: -21px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover, a:hover {
+  background-color: #e8bc84;
+  border-radius: 8px;
+  font-size: large;
+  box-shadow:5px 5px 5px lightblue;
+
+}
+th:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+td:hover{
+  color:rgb(245, 244, 248);
+  background-color: rgb(163, 215, 228, 0.3);
+
+}
+th, td:hover{
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1{
+  color: #e08d69;
+  text-align: center;
+  background-color: white;
+}

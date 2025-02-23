@@ -1,0 +1,12 @@
+.product-det{
+    text-align: center;
+    margin-top: 30px;
+}
+.view_details{
+    background-color: rgb(252, 135, 117);
+    color: rgb(255, 255, 255);
+}
+.view_table{
+    margin-top: 180px;
+    margin-left: 190px;
+}
